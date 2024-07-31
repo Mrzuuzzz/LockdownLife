@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 11px 0px 15px 0px;  
+}
+.logo {
+  max-width: 100%;
+  margin-left: 15px;
+  margin-top: 3.5px;
+  width: 125px; 
+  position: absolute;
+  vertical-align: middle;
+}
+.navlink {
+  text-align: right;
+}
+.navlink li{
+  display: inline-block;
+  margin-top: 3px; 
+  margin-right: 35px; 
+}
+.navlink li a{
+  color: black;
+}
+.navlink li a:hover, :focus{
+  font-weight: bold;
+}
+
+/* Above is what will apear on every page */
+
+.section-one { 
+  background-image: url(img/section-one-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1440px 1060px;
+  background-position-y:  bottom; 
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 215px 500px 530px 0px;
+}
+.section-one-header {
+  margin-left: 85px; 
+  color: rgb(255, 255, 255);
+  max-height: 100%;
+  position: absolute;
+}
+.section-one-header h1 {
+  font-size: 100px;
+}
+.section-one-header p {
+  font-size: 30px;
+}
+#section-one-button {
+  transition: 250ms ease-in-out;
+}
+#section-one-button { 
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border: rgb(255, 255, 255) solid 3px;
+  border-radius: 40px;
+  width: fit-content;
+  padding: 8px 10px;
+  font-size: 25px;
+}
+#section-one-button a{
+  color: rgb(255, 255, 255);
+}
+#section-one-button:hover, :focus {
+  background-color: rgba(255, 255, 255, 0.512);
+}
+
+/* End of section one */
+
+.section-two {
+  height: 300px;
+  color: rgb(31, 31, 31);
+}
+.section-two-header {
+  text-align: center;
+  margin-top: 55px; 
+}
+.section-two-header h1 {
+  font-size: 225%
+}
+.section-two-header p {
+  padding-top: 15px; 
+  line-height: 2;
+  font-size: 125%
+}
+.section-two-bottom {
+  background-color: rgb(211, 211, 211);
+  height: 20px; 
+}

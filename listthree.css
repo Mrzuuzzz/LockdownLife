@@ -1,0 +1,181 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+}
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 11px 0px 15px 0px;  
+}
+.logo {
+  max-width: 100%;
+  margin-left: 15px;
+  margin-top: 3.5px;
+  width: 125px; 
+  position: absolute;
+  vertical-align: middle;
+}
+.navlink {
+  text-align: right;
+}
+.navlink li{
+  display: inline-block;
+  margin-top: 3px; 
+  margin-right: 35px; 
+}
+.navlink li a{
+  color: black;
+}
+.navlink li a:hover, :focus{
+  font-weight: bold;
+}
+
+/* Above is what will apear on every page */
+
+.section-one {
+  background-color: rgb(232, 189, 233);
+  height: 100px;
+  padding-bottom: 65px; 
+}
+.section-one h1 {
+  font-size: 70px;
+  color: white;
+  padding-left: 70px;
+  padding-top: 35px;
+}
+
+.section-two h2 {
+  width: 1200px;
+  margin-top: 50px;
+  margin-left:70px; 
+  color: rgb(130, 80, 133);
+  font-size: 25px;
+}
+
+
+.maincontainer{
+  margin-top: 200px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer-two{
+  margin-top: 375px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer-three{
+  margin-top: 375px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.maincontainer-four{
+  margin-top: 375px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.maincontainer-five{
+  margin-top: 375px;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+/* THE CARD HOLDS THE FRONT AND BACK FACES */
+.thecard{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+}
+
+/* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+/* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+ .thefront{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: rgb(232, 189, 233);
+  color: rgb(254, 247, 255);
+}
+
+/* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+.theback{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background: #ffefff;
+  color: rgb(85, 59, 94);
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+
+/*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+.thefront h1, .theback h1{
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p, .theback p{
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.section-three-bottom {
+  background-color: rgb(255, 255, 255);
+  height: 20px; 
+  margin-top: 50px;
+}
